@@ -1,0 +1,21 @@
+.feed {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width:768px) {
+    .feed {
+      padding:0;
+      margin: 0;
+    }
+
+    .storyReel {
+      margin: 10px;
+      padding: 20 40px;
+    }
+    
+  }
