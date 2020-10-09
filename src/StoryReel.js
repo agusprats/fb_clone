@@ -1,10 +1,13 @@
 import React from 'react';
 import Story from './Story';
 import './StoryReel.css';
+import Zoom from 'react-reveal/Zoom';
 
 function StoryReel() {
     return (
+        <Zoom left cascade>
         <div className='storyReel'>
+           
             <Story 
             image='https://scontent.faep5-1.fna.fbcdn.net/v/t31.0-8/s960x960/1965411_10152057242304702_1322323123_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=crrzmarCTBsAX_6uPI8&_nc_ht=scontent.faep5-1.fna&tp=7&oh=8c5cc84d90ccebb32c7c56a0794bd10c&oe=5FA3F265'
             profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/12191428_1546285132328983_3515153993365865008_n.jpg?_nc_cat=110&_nc_sid=825194&_nc_ohc=yXUlKkpI0FwAX-MygOs&_nc_ht=scontent.faep5-1.fna&oh=4c2121e6974caa18d2a3d46fd99aab4e&oe=5FA2E56C'
@@ -33,8 +36,10 @@ function StoryReel() {
             title='MHMAT'
             />
 
-
+ 
         </div>
+        </Zoom> 
+        
     )
 }
 

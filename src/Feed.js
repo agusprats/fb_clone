@@ -32,20 +32,10 @@ db.collection('posts')
             timestamp={post.data.timestamp}
             username={post.data.username}
             image={post.data.image}
+            contarClics={post.data.clics}
             />
 
             ))}
-
-{/*
-            <Post
-            profilePic={'https://avatars2.githubusercontent.com/u/59830072?s=60&v=4'}
-            message='Chocolate cupcake without eggs...'
-            timestamp='this is a timestamp'
-            username='APP'
-            image='https://okdiario.com/img/2018/10/17/cupcake-de-chocolate-sin-huevo.jpg'
-            />
-*/}
-
         </div>
     )
 }

@@ -5,6 +5,7 @@ import Sidebar from './Sidebar';
 import Feed from './Feed';
 import Widgets from './Widgets';
 import Login from  './Login';
+import Footer from './Footer';
 import  { useStateValue } from './StateProvider';
 
 function App() {
@@ -24,9 +25,12 @@ function App() {
         <Sidebar />
         <Feed />
         <Widgets />
+        
     </div>
+    <Footer />
         </>
       )}
+      
     </div>
   );
 }
