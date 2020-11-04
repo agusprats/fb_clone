@@ -59,3 +59,9 @@
     background-color: #eff2f5;
     border-radius: 20px;
   }
+
+  @media all and (max-width:1200px) {
+.messageSender__top> form >button {
+  display: visible;
+  }
+}

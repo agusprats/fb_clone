@@ -32,7 +32,7 @@ db.collection('posts')
             timestamp={post.data.timestamp}
             username={post.data.username}
             image={post.data.image}
-            contarClics={post.data.clics}
+            contarClics={post.data.contarClics}
             />
 
             ))}

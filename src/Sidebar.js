@@ -9,6 +9,7 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { useStateValue } from './StateProvider';
+import { Link} from 'react-router-dom';
 
 function Sidebar() {
     const [{user}, dispatch] = useStateValue();
@@ -22,6 +23,7 @@ function Sidebar() {
             <SidebarRow Icon={EmojiFlagsIcon} title='Pages'/>
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
             <SidebarRow Icon={ChatIcon} title="Messenger"/>
+            
             <SidebarRow Icon={StorefrontIcon} title="Marketplace"/>
             <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
             <SidebarRow Icon={ExpandMoreIcon} title="Expand" />

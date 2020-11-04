@@ -19,59 +19,48 @@ function Header() {
     return (
         <div className='header'>
             <div className="header__left">
-
-            <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Facebook_Home_logo_old.svg" alt="" />
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Facebook_Home_logo_old.svg" alt="" />
         
-
-        <div className="header__input">
-            <SearchIcon/>
-            <input placeholder="Search Facebook" type="text" />      
-        </div>
-        </div>
-
-        <div className="header__center">
-            <div className="header__option header__option--active">
-                <HomeIcon fontSize="large" />
-            </div>
-            <div className="header__option">
-                <FlagIcon fontSize="large" />
-            </div>
-            <div className="header__option">
-                <SubscriptionsOutlinedIcon fontSize="large" />
-            </div>
-            <div className="header__option">
-                <StorefrontOutlinedIcon fontSize="large" />
-            </div>
-            <div className="header__option">
-                <SupervisedUserCircleIcon fontSize="large" />
-            </div>
-        </div>
-
-
-        <div className="header__right">
-            <div className="header__info">
-                <Avatar src={user.photoURL} />
-                <h4>{user.displayName}</h4>
+                <div className="header__input">
+                    <SearchIcon/>
+                    <input placeholder="Search Facebook" type="text" />      
+                </div>
             </div>
 
-            <IconButton>
-            <AddIcon />
-            </IconButton>
+            <div className="header__center">
+                <div className="header__option header__option--active">
+                    <HomeIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <FlagIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <SubscriptionsOutlinedIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <StorefrontOutlinedIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <SupervisedUserCircleIcon fontSize="large" />
+                </div>
+            </div>
 
-            <IconButton>
-            <ForumIcon />
-            </IconButton>
+            <div className="header__right">
+                <div className="header__info">
+                    <Avatar src={user.photoURL} />
+                    <h4>{user.displayName}</h4>
+                </div>
 
-            <IconButton>
-            <NotificationsActiveIcon />
-            </IconButton>
+                <IconButton> <AddIcon /></IconButton>
 
-            <IconButton>
-            <ExpandMoreIcon />
-            </IconButton>
-        </div>
+                <IconButton><ForumIcon /></IconButton>
+
+                <IconButton><NotificationsActiveIcon /></IconButton>
+
+                <IconButton><ExpandMoreIcon /></IconButton>
+            </div>
         
-    </div>
+        </div>
     )
 }
 

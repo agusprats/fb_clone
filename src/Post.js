@@ -9,7 +9,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Fade from 'react-reveal/Fade';
 
 
-function Post({profilePic, image, username, timestamp, message, contarClics}) {
+function Post({profilePic, image, username, timestamp, message}) {
 
     const [ clics, setClics] = useState(0)
 
@@ -41,12 +41,13 @@ function Post({profilePic, image, username, timestamp, message, contarClics}) {
 
             <div className="post__options">
                 <div className="post__option">
+                
                     <ThumbUpIcon 
                     onClick={contarClicks}
-                    
                     />
                     <div>{clics}</div>
                     <p>Like</p>
+                
                 </div>
                 <div className="post__option">
                     <ChatBubbleOutlineIcon />
@@ -59,10 +60,10 @@ function Post({profilePic, image, username, timestamp, message, contarClics}) {
                 <div className="post__option">
                     <AccountCircleIcon />
                     <ExpandMoreOutlined />
-                 </div>
+                </div>
             </div>
         </div>
-        </Fade>
+    </Fade>
     );
 }
 

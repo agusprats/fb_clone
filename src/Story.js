@@ -14,4 +14,5 @@ function Story({image, profileSrc, title }) {
     )
 }
 
+
 export default Story

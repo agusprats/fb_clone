@@ -25,12 +25,14 @@
     font-size: 22px;
 }
 
-@media (max-width:768px) {
+@media all and (max-width:768px) {
     .footer {
+        display: none;
         width: 100%;
         height: 50px;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
     }
  
     .footer__logo {

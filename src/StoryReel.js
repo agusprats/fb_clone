@@ -7,13 +7,12 @@ function StoryReel() {
     return (
         <Zoom left cascade>
         <div className='storyReel'>
-           
-            <Story 
+
+        <Story 
             image='https://scontent.faep5-1.fna.fbcdn.net/v/t31.0-8/s960x960/1965411_10152057242304702_1322323123_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=crrzmarCTBsAX_6uPI8&_nc_ht=scontent.faep5-1.fna&tp=7&oh=8c5cc84d90ccebb32c7c56a0794bd10c&oe=5FA3F265'
             profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/12191428_1546285132328983_3515153993365865008_n.jpg?_nc_cat=110&_nc_sid=825194&_nc_ohc=yXUlKkpI0FwAX-MygOs&_nc_ht=scontent.faep5-1.fna&oh=4c2121e6974caa18d2a3d46fd99aab4e&oe=5FA2E56C'
             title='Cakes Tutorial'
             />
-
             <Story 
             image='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/12509710_1117301754969558_7057295826403376724_n.jpg?_nc_cat=107&_nc_sid=825194&_nc_ohc=RLw_yES2EuoAX_xm0bl&_nc_ht=scontent.faep5-1.fna&oh=a79f2811480831f2be4fe615f5a62f15&oe=5FA3A140'
             profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/s960x960/93485343_10157651187094079_7151497487054798848_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=KdVeGZgj9ncAX9_1YDa&_nc_ht=scontent.faep5-1.fna&tp=7&oh=c8ff3915920290c243084c53f5dd8ad7&oe=5FA47C2B'
