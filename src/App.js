@@ -13,20 +13,15 @@ function App() {
   
   return (
     <div className="app">
-      {!user ? (
-      
-      <Login />
-      
-      ) : (
-        
+      {!user ? (<Login />) : ( 
         <>
         <Header/>
     <div className="app__body">
         <Sidebar />
         <Feed />
-        <Widgets />
-        
+        <Widgets /> 
     </div>
+    
     <Footer />
         </>
       )}

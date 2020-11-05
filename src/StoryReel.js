@@ -7,14 +7,15 @@ function StoryReel() {
     return (
         <Zoom left cascade>
         <div className='storyReel'>
-
+            
         <Story 
-            image='https://scontent.faep5-1.fna.fbcdn.net/v/t31.0-8/s960x960/1965411_10152057242304702_1322323123_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=crrzmarCTBsAX_6uPI8&_nc_ht=scontent.faep5-1.fna&tp=7&oh=8c5cc84d90ccebb32c7c56a0794bd10c&oe=5FA3F265'
-            profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/12191428_1546285132328983_3515153993365865008_n.jpg?_nc_cat=110&_nc_sid=825194&_nc_ohc=yXUlKkpI0FwAX-MygOs&_nc_ht=scontent.faep5-1.fna&oh=4c2121e6974caa18d2a3d46fd99aab4e&oe=5FA2E56C'
+            image='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DrEWL7AIN'
+            profileSrc='https://images.immediate.co.uk/production/volatile/sites/2/2015/05/6522.jpg?quality=90&resize=600%2C400'
             title='Cakes Tutorial'
             />
+        
             <Story 
-            image='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/12509710_1117301754969558_7057295826403376724_n.jpg?_nc_cat=107&_nc_sid=825194&_nc_ohc=RLw_yES2EuoAX_xm0bl&_nc_ht=scontent.faep5-1.fna&oh=a79f2811480831f2be4fe615f5a62f15&oe=5FA3A140'
+            image='https://elgourmet.s3.amazonaws.com/recetas/cover/cupca_sTqQFIAgcplGtkyjL1nhBb5dNMeKPW.png'
             profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/s960x960/93485343_10157651187094079_7151497487054798848_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=KdVeGZgj9ncAX9_1YDa&_nc_ht=scontent.faep5-1.fna&tp=7&oh=c8ff3915920290c243084c53f5dd8ad7&oe=5FA47C2B'
             title='My Cupcakes'
             />
@@ -24,13 +25,13 @@ function StoryReel() {
             title='Tasty'
             />
             <Story 
-            image='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/71177814_2416504101943832_5020266326015344640_n.jpg?_nc_cat=111&_nc_sid=825194&_nc_ohc=r4r_JX6obIcAX-rn7kk&_nc_ht=scontent.faep5-1.fna&oh=30992e1eed3bf2df9e763ef077dc4d8c&oe=5FA3E288'
-            profileSrc='https://scontent.faep5-1.fna.fbcdn.net/v/t1.0-9/82797844_1615459151928569_8241886110372855808_n.jpg?_nc_cat=107&_nc_sid=825194&_nc_ohc=-vdcbC2roYQAX_9o48C&_nc_ht=scontent.faep5-1.fna&oh=c2ee1392d25d434cb87116e0adf973de&oe=5FA445A0'
+            image='https://images.immediate.co.uk/production/volatile/sites/2/2015/05/6522.jpg?quality=90&resize=600%2C400'
+            profileSrc='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DrEWL7AIN'
             title='Maria´s Cake'
             />
 
             <Story 
-            image='https://scontent.faep5-1.fna.fbcdn.net/v/t31.0-8/s960x960/27503674_1860414724002971_5855575992740796885_o.jpg?_nc_cat=108&_nc_sid=825194&_nc_ohc=NgFC0kv_Z0wAX-gwokD&_nc_ht=scontent.faep5-1.fna&tp=7&oh=37e14393a8b167865b68043aba050421&oe=5FA3ABA1'
+            image='https://livforcake.com/wp-content/uploads/2017/07/black-forest-cake-thumb.jpg'
             profileSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS15emvLk_yiuIoLlKkF_sAcgrpaOxWj6qYsA&usqp=CAU'
             title='MHMAT'
             />
